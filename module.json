@@ -1,14 +1,18 @@
 {
-  "id": "twitch-module",
-  "title": "Twitch Module",
+  "id": "tormenta20-reroll",
+  "title": "Tormenta20 Reroll",
   "version": "1.0.0",
   "compatibility": {
     "minimum": "13",
     "verified": "13"
   },
+  "download": "https://github.com/OrionAishe/Tormenta20-Reroll/releases/download/V1.0/tormenta20-reroll.rar",
+  "manifest": "https://github.com/OrionAishe/Tormenta20-Reroll/releases/download/V1.0/module.json",
   "authors": [
     {
       "name": "AisheOrion",
+      "url": "https://github.com/OrionAishe",
+      "discord": "AisheOrion",
       "flags": {}
     }
   ],

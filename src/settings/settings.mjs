@@ -3,7 +3,7 @@ export class DHAppearanceSettings extends foundry.applications.api.HandlebarsApp
     static DEFAULT_OPTIONS = {
         tag: 'form',
         id: 'appearance-settings',
-        classes: ['twitch-module', 'dialog', 'setting', 'appearance-settings'],
+        classes: ['tormenta20-reroll', 'dialog', 'setting', 'appearance-settings'],
         position: { width: '600', height: 'auto' },
         window: {
             title: 'Settings',

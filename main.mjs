@@ -21,9 +21,9 @@ Hooks.once('init', () => {
 
 Hooks.on("getSceneControlButtons", (controls) => {
     const teste = {
-        "name": "twitch-module",
+        "name": "tormenta20-reroll",
         "order": Object.keys(controls).length+1,
-        "title": "Twitch",
+        "title": "Reroll",
         "layer": "TokenLayer",
         "icon": "fas fa-dice",
         "visible": true,
@@ -38,7 +38,7 @@ Hooks.on("getSceneControlButtons", (controls) => {
             }
         }
     }
-    controls["twitch-module"] = teste;
+    controls["tormenta20-reroll"] = teste;
 
 });
 

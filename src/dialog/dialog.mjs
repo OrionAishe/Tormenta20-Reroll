@@ -27,7 +27,7 @@ export class Reroll extends foundry.applications.api.HandlebarsApplicationMixin(
     static PARTS = {
         resources: {
             root: true,
-            template: 'modules/twitch-module/templates/dialog/dialog.hbs'
+            template: 'modules/tormenta20-reroll/templates/dialog/dialog.hbs'
         }
     };
 
