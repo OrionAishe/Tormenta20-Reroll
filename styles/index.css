@@ -1,0 +1,12 @@
+.tormenta20.base .rerrola {
+    font-size: 2em;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.rerrola-dialog .window-content {
+    background: linear-gradient(#af1919, #000);
+    color: white;
+}

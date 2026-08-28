@@ -1,0 +1,25 @@
+{
+  "id": "twitch-module",
+  "title": "Twitch Module",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "13",
+    "verified": "13"
+  },
+  "authors": [
+    {
+      "name": "AisheOrion",
+      "flags": {}
+    }
+  ],
+  "esmodules": [
+    "main.mjs"
+  ],
+  "styles": [
+    "styles/index.css"
+  ],
+  "flags": {
+    "canUpload": true
+  },
+  "description": ""
+}
