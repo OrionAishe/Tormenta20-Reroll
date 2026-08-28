@@ -1,11 +1,9 @@
-import { getItOn } from "./src/app.mjs";
 import { ChatLogTwitch } from "./src/chat/chat.mjs";
 import { Reroll } from "./src/dialog/dialog.mjs";
 
 Hooks.once('init', () => {
     CONFIG.ui.chat = ChatLogTwitch;
     CONFIG.ui.resources = Reroll;
-    getItOn();
 
     game.settings.register('Tormenta-Reroll', 'ResourcesReroll', {
         name: 'Re-Rolas',
